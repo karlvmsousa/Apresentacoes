@@ -18,12 +18,16 @@ Usando o Jupyter notebook, irei mostrar algumas formas de interação bastante i
 ### Público-alvo
 Pessoas com nível iniciante/intermediário em python com interesse em visualização e análise de dados.
 
+## High-performance medicine: the convergence of human and artificial intelligence
+[**CIn Research group**](https://github.com/adjs/am-cq) **on Machine Learning and Quantum computing**
+### Summary
+Based on the Eric J. Topol's [article](https://www.nature.com/articles/s41591-018-0300-7), this presentation is an overview about the use of machine learning algorithms (specially Deep learning/CNN, as he points out) in medicine, and how clinicians, health systems and patients, are going to use them.
+
 ## Como Machine Learning pode nos ajudar a viver mais e melhor
 **Evento**: [The Developers Conference Recife 2019](http://www.thedevelopersconference.com.br/tdc/2019/recife/trilhas) <br>
 **Trilha**: Inteligência Artificial e Machine Learning
 
 ### Resumo
-
 Os avanços da Inteligência Artificial em reconhecimento de imagens (detectando faces e criando filtros), nos mecanismos de recomendação (como Netflix) e na geração de propagandas que combinam com o seu perfil, já são largamente conhecidos.
 
 Mas quais são os avanços que essa tecnologia vem trazendo na saúde, um campo que possui tanto impacto nas nossas vidas? E os algoritmos considerados "caixas-pretas", como lidar com uma decisão sobre a vida de uma pessoa sem saber de fato o que a máquina "pensou"?
