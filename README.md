@@ -19,7 +19,7 @@ Usando o Jupyter notebook, irei mostrar algumas formas de interação bastante i
 Pessoas com nível iniciante/intermediário em python com interesse em visualização e análise de dados.
 
 ## High-performance medicine: the convergence of human and artificial intelligence
-[**CIn Research group**](https://github.com/adjs/am-cq) **on Machine Learning and Quantum computing**
+Presented on [**CIn Research group**](https://github.com/adjs/am-cq) Machine Learning and Quantum computing.
 ### Summary
 Based on the Eric J. Topol's [article](https://www.nature.com/articles/s41591-018-0300-7), this presentation is an overview about the use of machine learning algorithms (specially Deep learning/CNN, as he points out) in medicine, and how clinicians, health systems and patients, are going to use them.
 
