@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
 """
-Tutorial Kmeans
+Tutorial K-means: definição de funções
 @author: karlvandesman
 """
 
@@ -13,7 +14,7 @@ import matplotlib.pyplot as plt
 
 #%%
 # *** Inicializar centroides ***
-def kMeansInicCentroides(X, K):
+def inicializacaoCentroides(X, K):
     '''Seleciona aleatoriamente clusters dentre os exemplos de X'''
 	
     centroidesIniciais = X[np.random.choice(X.shape[0], K, replace=False), :]
@@ -58,7 +59,7 @@ def kMeans(X, K, num_iter, detalhado=False):
     
     plt.figure()
 
-    centroides = kMeansInicCentroides(X, K)
+    centroides = inicializacaoCentroides(X, K)
     plt.scatter(centroides[:, 0], centroides[:, 1], marker='X', 
                         alpha=0.4, c='m', s=150)
     
@@ -108,12 +109,4 @@ def plotDetalhado(centroides, centroidesAntigos):
                   centroides[j, 1] - centroidesAntigos[j, 1])
     
     plt.scatter(centroides[:, 0], centroides[:, 1], marker='*', c='k', 
-                s=200, alpha = 0.6)    
-
-#%%
-# *** Exemplo de aplicação ***
-
-# Geração de base de dados para agrupamento
-X, y = make_blobs(n_samples=100, random_state=19, centers=3, cluster_std=2)
-
-centroides, indicesGrupos = kMeans(X, K=3, num_iter=5, detalhado=True)
+                s=200, alpha = 0.6)
