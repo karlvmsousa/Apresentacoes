@@ -7,7 +7,6 @@ Tutorial K-means: definição de funções
 """
 
 # *** Importar bibliotecas ***
-from sklearn.datasets import make_blobs
 import numpy as np
 from scipy.spatial import distance
 import matplotlib.pyplot as plt
