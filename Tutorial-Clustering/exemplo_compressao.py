@@ -28,7 +28,7 @@ imagem_est = imagem.reshape(linhas*colunas, 3)
 
 #%% 
 # *** Aplicação do K-means ***
-modeloKmeans = KMeans(n_clusters=16, n_init=1, max_iter=10)
+modeloKmeans = KMeans(n_clusters=2, n_init=1, max_iter=10)
 
 # "Treinar" o modelo
 modeloKmeans.fit(imagem_est)
